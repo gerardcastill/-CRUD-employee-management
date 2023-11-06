@@ -18,7 +18,6 @@ function App() {
                 <Route path = "/employees" exact element={<ListEmployeeComponent/>}></Route>
                 <Route path = "/add-employee/:id" exact element={<CreateEmployeeComponent/>}></Route>
                 <Route path = "/view-employee/:id" exact element={<ViewEmployeeComponent/>}></Route>
-                {/*<Route path = "/update-employee/:id" exact element={<UpdateEmployeeComponent/>}></Route>*/}
               </Routes>
           </div>
         <FooterComponent/>
